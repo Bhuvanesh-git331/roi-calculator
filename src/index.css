@@ -1,0 +1,29 @@
+body{
+  background-color: antiquewhite;
+}
+
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+
+.main {
+  
+  position: absolute;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 100px;
+ 
+  
+}
+
+.calc-display{
+  margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+}
